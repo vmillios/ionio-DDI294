@@ -1,0 +1,19 @@
+Get customer data by customer ID
+---
+security:
+  - ApiKeyAuth: []
+parameters:
+  - name: customer_id
+    in: path
+    type: integer
+    required: true
+    description: The ID of the customer
+responses:
+  200:
+    description: Customer data or not found
+    examples:
+      application/json:
+        id: 1
+        name: Customer1
+        email: customer1@example.com
+        age: 21

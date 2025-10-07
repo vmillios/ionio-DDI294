@@ -1,0 +1,6 @@
+app:
+  db_name: customers.db
+  debug: true
+  host: 127.0.0.1
+  port: 5000
+  auth_token: my_secret_token
